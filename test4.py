@@ -7,6 +7,7 @@ app = Flask(__name__)
 @app.route('/test', methods=['POST'])
 def test():
     print("test pass")
+    return jsonify({'test': 'pass'})
 
 
 if __name__ == '__main__':
