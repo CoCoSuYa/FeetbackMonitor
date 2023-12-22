@@ -4,3 +4,4 @@ idna==3.4
 mysql-connector-python==8.1.0
 protobuf==4.21.12gi
 requests==2.31.0
+flask~=3.0.0
