@@ -4,11 +4,11 @@ import requests
 app = Flask(__name__)
 
 # Your custom GPT API endpoint and key
-YOUR_API_URL = 'https://cfwus02.opapi.win/v1/chat/completions'  # Replace with your actual GPT API URL
+YOUR_API_URL = 'https://aigptx.top/v1/chat/completions'  # Replace with your actual GPT API URL
 YOUR_API_KEY = 'sk-c2W2DFWC7B5D19247e19T3BLBkFJcFcb14b504E842299535'  # Replace with your actual API key
 
 # DingTalk robot webhook URL and token
-dingtalk_robot_url = 'https://oapi.dingtalk.com/robot/send?access_token=33886bca1ae51e7462ff750b79424c1b044d32cbdb0a1607de4e9593ed6a8861'  # Replace with your actual access token
+dingtalk_robot_url = 'https://oapi.dingtalk.com/robot/send?access_token=04d7511589d326acaf9ab20ba7435e79af967fa981d3af80d78a92aaf653a7e8'  # Replace with your actual access token
 
 
 # Function to send a message to DingTalk
